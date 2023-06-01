@@ -4,11 +4,17 @@ Body {
     text-align: center;
 }
 
-#Header {
+.Header {
     height: 100px;
     width: 100%;
     position: fixed;
     background-image: url("src/background.jpg");
     background-size: cover;
     background-position: center center;   
+}
+
+.Header h1 {
+    padding-top: 10%;
+    font-size: 50px;
+    text-transform: uppercase;
 }
