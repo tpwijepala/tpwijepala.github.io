@@ -1,6 +1,11 @@
-body {
+#Personal {
     background-color: #212121;
     color: #FFFFFF;
     margin-top: 2cm;
     text-align: center;
+}
+
+#Contacts {
+    background-color: #212121;
+    color: #FFFFFF;
 }
