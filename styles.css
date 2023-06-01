@@ -5,7 +5,7 @@ Body {
 }
 
 .Header {
-    height: 100px;
+    height: 500px;
     width: 100%;
     position: fixed;
     background-image: url("src/background.jpg");
@@ -15,6 +15,6 @@ Body {
 
 .Header h1 {
     padding-top: 10%;
-    font-size: 50px;
+    font-size: 75px;
     text-transform: uppercase;
 }
