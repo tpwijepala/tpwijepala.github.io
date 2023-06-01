@@ -4,7 +4,7 @@ Body {
     text-align: center;
 }
 
-.Header {
+#Header {
     height: 500px;
     width: 100%;
     position: fixed;
@@ -13,12 +13,12 @@ Body {
     background-position: center center;   
 }
 
-.Header h1 {
+#Header h1 {
     padding-top: 10%;
     font-size: 75px;
     text-transform: uppercase;
 }
 
-.Contacts {
+#Contacts {
     padding-left: 10%;
 }
