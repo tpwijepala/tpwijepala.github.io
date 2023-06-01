@@ -5,8 +5,10 @@ Body {
 }
 
 #Header {
-    margin-top: 2cm;
     background-image: url("src/background.jpg");
-    height: 20cm;
-    width: 50%;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    height: 8cm;
+    width: 80%;
 }
