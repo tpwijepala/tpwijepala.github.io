@@ -10,7 +10,7 @@ h1.page-header {
     padding: 0;
 }
 
-#Header {
+#header {
     height: 969px;
     width: 100%;
     background-image: url("src/background.jpg");
@@ -19,16 +19,12 @@ h1.page-header {
     padding: 1px;  
 }
 
-#Header h1 {
+#header h1 {
     padding-top: 7%;
     font-size: 100px;
     line-height: 0%;
 }
 
-#Header p {
+#header p {
     font-size: 35px;
-}
-
-#Contacts {
-    padding-left: 10%;
 }
