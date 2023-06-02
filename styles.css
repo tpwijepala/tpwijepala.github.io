@@ -16,12 +16,11 @@ Body {
 #Header h1 {
     padding-top: 5%;
     font-size: 100px;
-    text-transform: uppercase;
 }
 
 #Header p {
-    padding-top: -5%;
-    font-size: 50px;
+    padding-top: -50%;
+    font-size: 35px;
 }
 
 #Contacts {
