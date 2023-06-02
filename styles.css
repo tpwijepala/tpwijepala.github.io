@@ -4,6 +4,11 @@ Body {
     text-align: center;
 }
 
+h1.page-header {
+    margin: 0;
+    padding: 0;
+}
+
 #Header {
     height: 500px;
     width: 100%;
@@ -19,7 +24,7 @@ Body {
 }
 
 #Header p {
-    padding-top: -50%;
+    padding-top: 1%;
     font-size: 35px;
 }
 
