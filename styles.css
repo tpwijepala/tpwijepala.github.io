@@ -2,6 +2,7 @@ Body {
     background-color: #212121;
     color: #FFFFFF;
     text-align: center;
+    margin: 0;
 }
 
 h1.page-header {
@@ -12,14 +13,14 @@ h1.page-header {
 #Header {
     height: 500px;
     width: 100%;
-    position: fixed;
     background-image: url("src/background.jpg");
     background-size: cover;
-    background-position: center center;   
+    margin: 0;
+    padding: 1px;  
 }
 
 #Header h1 {
-    padding-top: 5%;
+    padding-top: 7%;
     font-size: 100px;
     line-height: 0%;
 }
