@@ -58,3 +58,6 @@ h1 {
     font-size: 35px;
 }
 
+#hyperlinks a {
+    padding: 10px
+}
