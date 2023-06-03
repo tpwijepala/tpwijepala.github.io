@@ -28,3 +28,20 @@ h1.page-header {
 #header p {
     font-size: 35px;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
