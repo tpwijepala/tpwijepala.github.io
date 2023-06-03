@@ -5,28 +5,8 @@ Body {
     margin: 0;
 }
 
-h1.page-header {
-    margin: 0;
-    padding: 0;
-}
-
-#header {
-    height: 969px;
-    width: 100%;
-    background-image: url("src/background.jpg");
-    background-size: cover;
-    margin: 0;
-    padding: 1px;  
-}
-
-#header h1 {
-    padding-top: 20%;
-    font-size: 100px;
-    line-height: 0%;
-}
-
-#header p {
-    font-size: 35px;
+section {
+    min-height: 300px;
 }
 
 ul {
@@ -51,3 +31,28 @@ li a {
     font-size: 20px;
     padding: 10px;
 }
+
+h1.page-header {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 969px;
+    width: 100%;
+    background-image: url("src/background.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 1px;  
+}
+
+h1 {
+    padding-top: 20%;
+    font-size: 100px;
+    line-height: 0%;
+}
+
+#header p {
+    font-size: 35px;
+}
+
