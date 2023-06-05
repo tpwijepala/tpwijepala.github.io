@@ -70,3 +70,13 @@ h1 {
     left: 50%;
     margin-left: -25px;
 }
+
+#about-me img {
+    float: left;
+    padding-left: 20%;
+    padding-right: 3%;
+}
+
+#about-me p {
+    padding: 10px 400px 0 400px;
+}
