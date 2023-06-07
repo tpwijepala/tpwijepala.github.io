@@ -10,7 +10,7 @@ section {
     padding-top: 50px;
 }
 
-ul {
+#header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -21,11 +21,11 @@ ul {
     background-color: rgba(112,128,144,0.3);
 }
 
-li {
+#header li {
     display: inline-block;
 }
 
-li a {
+#header li a {
     color: white;
     display: block;
     text-align: center;
@@ -79,4 +79,27 @@ h1 {
 
 #about-me p {
     padding: 0 30% 0 30%;
+}
+
+#education img {
+    float: left;
+    padding: 0% 3% 0 30%
+
+}
+
+#education h2{
+    text-align: center;
+
+}
+
+#education{
+    text-align: left;
+}
+
+#education p {
+    margin: 5px 0 5px 0;
+}
+
+#education ul {
+    padding-left: 45%;
 }
