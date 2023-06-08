@@ -9,6 +9,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="styles.css">
+        <script src="./script.js"></script>
+
 
     </head>
     <body>
@@ -58,6 +60,17 @@
 
         <section id="projects">
             <h2> Projects </h2>
+            <div class="popup" id="popup-checkersAI">
+                <div class="overlay" onclick="togglePopup()"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1>Title</h1>
+                    <p>content</p>
+                    
+                </div>
+            </div>
+
+            <button onclick="togglePopup()"><img src="src/CheckersAI.png" height="160px" width="160px"></button>
         </section>
 
         <section id="skills">
@@ -73,7 +86,7 @@
                 <p>GPA 3.68</p>
                 <ul>
                     <li>Major in Computer Science</li>
-                    <li>Minor in Mathemathics</li>
+                    <li>Minor in Mathemathics</li>s
                 </ul>
             </div>
         </section>
