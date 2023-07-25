@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth
+}
 Body {
     background-color: #FAF9F6;
     color: #212121;
@@ -10,7 +13,7 @@ section {
     padding-top: 50px;
 }
 
-#header ul {
+#nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,15 +21,15 @@ section {
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: rgba(112,128,144,0.3);
+    background-color: rgba(112,128,144, 1);
 }
 
-#header li {
+#nav-bar li {
     display: inline-block;
 }
 
-#header li a {
-    color: white;
+#nav-bar li a {
+    color: black;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -39,28 +42,7 @@ h1.page-header {
     padding: 0;
 }
 
-#header {
-    height: 969px;
-    width: 100%;
-    background-image: url("src/background.jpg");
-    background-size: cover;
-    margin: 0;
-    padding: 1px;  
-}
 
-#header h1 {
-    padding-top: 20%;
-    font-size: 100px;
-    line-height: 0%;
-}
-
-#header p {
-    font-size: 35px;
-}
-
-#hyperlinks a {
-    padding: 10px
-}
 
 #scroll-button {
     position: absolute;
@@ -71,14 +53,19 @@ h1.page-header {
     margin-left: -25px;
 }
 
-#about-me img {
+#personal-photo {
     float: left;
-    padding-left: 20%;
-    padding-right: 3%;
+    padding-left: 10%;
+    padding-right: 0%;
+    padding-top: 2%;
 }
 
-#about-me p {
-    padding: 0 30% 0 30%;
+#personal-info{
+    padding: 0 30% 0 5%;
+}
+
+#hyperlinks a {
+    padding: 10px;
 }
 
 .popup .overlay {
