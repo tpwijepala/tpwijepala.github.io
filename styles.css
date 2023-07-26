@@ -1,17 +1,27 @@
 html {
     scroll-behavior: smooth
 }
+
 Body {
     background-color: #FAF9F6;
     color: #212121;
     text-align: center;
     margin: 0;
+    font-size: 16px;
 }
 
-section {
-    min-height: 300px;
-    padding-top: 50px;
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
+
+
+
+/* section {
+    min-height: 20%;
+    padding-top: 50px;
+} */
 
 #nav-bar ul {
     list-style-type: none;
@@ -33,39 +43,51 @@ section {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 1.25em;
+    /* width: 25%; */
+    padding: 10px
 }
 
-h1.page-header {
+/* h1.page-header {
     margin: 0;
     padding: 0;
+} */
+
+h2 {
+    padding-top: 70px;
 }
 
-
-
-#scroll-button {
-    position: absolute;
-    width: 50px;
-    bottom: 50px;
-    right: 25%;
-    left: 50%;
-    margin-left: -25px;
-}
 
 #personal-photo {
-    float: left;
-    padding-left: 10%;
+    width: auto;
+    margin-top: auto;
+    /* width: 10%; */
+    /* margin-right: auto; */
+    /* align-self: right; */
+    /* padding-left: 10%;
     padding-right: 0%;
-    padding-top: 2%;
+    padding-top: 2%; */
 }
 
 #personal-info{
-    padding: 0 30% 0 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
 }
 
-#hyperlinks a {
-    padding: 10px;
+#hyperlinks {
+    margin: auto;
+    /* min-height: 65%; */
+    /* max-width: 50%; */
+    
+}
+
+#hyperlinks img{
+    /* padding-top: 2%; */
+    padding: 1% 1% 0 1%;
+    /* max-width: 5%; */
+    /* height: auto; */
 }
 
 .popup .overlay {
@@ -161,6 +183,15 @@ h1.page-header {
     opacity: 1;
 }
 
+#skills {
+    width: 65%;
+    margin: auto;
+    /* margin: 0 25% 0 25%; */
+}
+
+#skills img{
+    width: 10%;
+}
 
 #education img {
     float: left;
@@ -168,9 +199,12 @@ h1.page-header {
 
 }
 
+#education {
+    padding-bottom: 5%;
+}
 
 #education div{
-    max-width: 35%;
+    max-width: 50%;
     display: inline-block;
     align-items: center;
     text-align: left;
@@ -180,13 +214,20 @@ h1.page-header {
     padding: 15px;
     border-radius: 4px;
     box-shadow: 0px 0px 20px 5px lightgray;
+    
+}
+
+#education img {
+    float: left
 }
 
 #education p {
     margin: 5px 0 5px 0;
+    font: 1em;
 }
 
 #education ul {
     margin: 5px;
     padding-left: 38%;
+    font: 1em;
 }
